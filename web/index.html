@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Top 10 nhân vật, sự kiện nổi bật của kinh tế Việt Nam năm 2018</title>
+    <title>8 giải pháp công nghệ số thể hiện bước ngoặt của Viettel tại MWC 2019</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -62,7 +62,7 @@
             });
 
             $('.cwiml-item').click(function() {
-                $('.cw-popup').fadeIn(600);
+                $('.cw-popup').fadeIn(300);
                 popup.update();
                 popup.slideTo($(this).index(), 0);
                 $('.cw-item').eq(1).fadeOut(300);
@@ -72,6 +72,7 @@
             $('.cwi-close').click(function() {
                 $('.cw-popup').fadeOut(300);
                 $('.cw-item').eq(1).delay(100).fadeIn(600);
+                $('.swim-item').eq(popup.activeIndex).find('video')[0].pause();
                 cafef.mousewheel.enable();
             });
 
@@ -100,14 +101,12 @@
                             <img src="images/arrow.png" alt="" class="cwi-img img-abs-bottom arrow">
                         </div>
                     </div>
-
-                    <img src="images/logo.png" alt="" class="cwi-logo">
                 </div>
 
                 <div class="cw-item swiper-slide">
                     <div class="table-cell">
-                        <div class="cwi-main">
-                            <img src="images/frame.png" alt="" class="cwi-img">
+                        <div class="cwi-main" style="width: 65.5%">
+                            <img src="images/frame-1.png" alt="" class="cwi-img">
 
                             <div class="cwim-list">
                                 <div class="cwiml-item flip-container flip-container">
@@ -197,28 +196,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="cwiml-item flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <img src="images/front-9.png" alt="" class="cwi-img">
-                                        </div>
-                                        <div class="back">
-                                            <img src="images/back-9.png" alt="" class="cwi-img">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="cwiml-item flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <img src="images/front-10.png" alt="" class="cwi-img">
-                                        </div>
-                                        <div class="back">
-                                            <img src="images/back-10.png" alt="" class="cwi-img">
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -238,21 +215,20 @@
                                 <div class="swim-item swiper-slide">
                                     <div class="swimi-left">
                                         <img src="images/front-1.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
                                     </div>
 
                                     <div class="swimi-right">
                                         <img src="images/subtitle-1.png" alt="" class="cwi-img">
-                                        <img src="images/quote-1.png" alt="" class="cwi-img">
 
                                         <div class="swimir-content">
                                             <div class="swimirc-main">
-                                                <p>Tháng 12/2018, tỷ phú Phạm Nhật Vượng – ông chủ của tập đoàn Vingroup – ghi tên mình vào danh sách 220 người giàu nhất thế giới, tiếp tục giữ vững danh hiệu doanh nhân Việt Nam được xếp hạng cao nhất trong lịch sử của Forbes, với 6,7 tỷ USD tài sản cá nhân được thống kê.</p>
+                                                <p>Từ nỗi đau khi nhiều ngư dân vùng ven biển bị bắt giữ trong khi đang vật lộn với cuộc sống mưu sinh vì những lý do đôi khi là bất khả kháng, hoặc họ không hề hay biết; trước sự bế tắc trong việc bảo vệ người dân và quản lý hành trình tàu cá, giải quyết triệt để vấn đề xâm phạm lãnh hải nước bạn từ cơ quan quản lý, đội ngũ kỹ sư Viettel đã lao vào nghiên cứu thiết bị giám sát hành trình tàu cá S-Tracking.</p>
 
-                                                <p>Năm 2018 ghi dấu lần đầu tiên ông Vượng trả lời phỏng vấn một kênh truyền thông trong nước, tiết lộ cách bản thân điều hành tập đoàn Vingroup, và tham vọng "không sống một cuộc đời phí hoài". Ông cũng có lần hiếm hoi xuất hiện trong buổi lễ ra mắt sản phẩm khi VinFast lần đầu đưa 3 mẫu ô tô và 1 mẫu xe máy điện ra thị trường. Dẫu vậy, vẫn đúng với phong cách cá nhân quen thuộc, ông không có bài phát biểu trong buổi lễ, cũng như chọn vị trí có phần khuất tầm nhìn trong suốt 40 phút của sự kiện.</p>
+                                                <p>S-Tracking là một trong bốn giải pháp công nghệ số dành riêng cho ngư dân được Viettel nghiên cứu và phát triển được đem tới Hội nghị di động thế giới (MWC) 2019. Các sản phẩm của Viettel tiêu chí dễ sử dụng, khả năng chịu nước, chịu va đập tốt, pin dung lượng lớn, hoạt động ổn định, tầm cảnh báo xa, độ chính xác cao, phù hợp với người Việt Nam và giá rẻ hơn sản phẩm nước ngoài. Thiết bị nhận dạng tàu tự động AIS, Máy thông tin liên lạc HF, Thiết bị giám sát hành trình tàu thuyền S-Tracking, Thiết bị báo hiệu cứu nạn cá nhân (VPLB) là những sản phẩm không chỉ phục vụ nhu cầu của ngư dân, mà còn là giải pháp tránh “thẻ đỏ” (cấm xuất khẩu thủy sản) của châu  u sau khi Việt Nam đã bị “thẻ vàng” (bị Ủy ban châu  u cảnh báo do ngư dân vi phạm quy định ở ngư trường quốc tế).</p>
 
-                                                <p>Nhưng ở một khía cạnh khác, “đứa con” Vingroup dưới sức ảnh hưởng của vị chủ tịch 50 tuổi đang thực hiện đúng mục tiêu “Mãi mãi tinh thần khởi nghiệp” mà ông đặt ra: 9 tháng ra xe ô tô mẫu, 12 tháng ra xe máy điện, 6 tháng ra điện thoại thông minh, khởi công trường đại học, xây dựng viện công nghệ và dữ liệu lớn…., trở thành thế lực mới đầy kỳ vọng trong ngành công nghiệp – công nghệ Việt Nam.</p>
+                                                <p>Nhờ các tính năng ưu việt và phù hợp với thị trường Việt Nam, chỉ sau 2 tháng kinh doanh thử nghiệm, riêng S-Tracking đã chiếm được 90% thị phần tại Cà Mau, và có thể sớm đáp ứng nhu cầu 26.000 tàu cá (loại trên 15m) trên 28 tỉnh thành ven biển Việt Nam. Từ đây, những thiết bị của Viettel sẽ tỏa đi khắp các vùng biển Việt Nam, và trở thành hàng ngàn ngọn hải đăng di động, giữ lối và hỗ trợ cho người Việt trong những ngày lênh đênh sóng nước. Các giải pháp số cho ngư dân này cũng hướng mục tiêu tới các thị trường quốc tế, đặc biệt là ở những quốc gia châu Á và châu Phi – nơi Viettel đang đầu tư kinh doanh.</p>
+
+                                                <video src="https://r5---sn-npoeen7r.c.drive.google.com/videoplayback?id=a0c841dc9504e5cd&itag=37&source=webdrive&requiressl=yes&mm=30&mn=sn-npoeen7r&ms=nxu&mv=u&pl=24&sc=yes&ttl=transient&ei=W3RzXMDuLomrqgWwloPQAg&susc=dr&driveid=1t6rthcpHJLRiM5pZdnrWu4bNCJZ5gnVH&app=texmex&mime=video/mp4&dur=230.411&lmt=1551054939284598&mt=1551069719&ip=203.210.143.117&ipbits=0&expire=1551084699&cp=QVNKU0FfU1ZXSlhOOklSTS1BTkZLSWp0&sparams=ip,ipbits,expire,id,itag,source,requiressl,mm,mn,ms,mv,pl,sc,ttl,ei,susc,driveid,app,mime,dur,lmt,cp&signature=8883EF070BFB60D0C153BB9F80B14E12F9E480CB98EC9FFC75223A31FA179DC1.DE9A109D915AFCB5CE75A926027FBEB792C9E99EAF267DD2E5F4C8D296E0D805&key=us0&cpn=iNyaPHSxYZ94QZ7m&c=WEB_EMBEDDED_PLAYER&cver=20190221" controls></video>
                                             </div>
                                         </div>
                                     </div>
@@ -261,21 +237,20 @@
                                 <div class="swim-item swiper-slide">
                                     <div class="swimi-left">
                                         <img src="images/front-2.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
                                     </div>
 
                                     <div class="swimi-right">
                                         <img src="images/subtitle-2.png" alt="" class="cwi-img">
-                                        <img src="images/quote-2.png" alt="" class="cwi-img">
 
                                         <div class="swimir-content">
                                             <div class="swimirc-main">
-                                                <p>2018 là năm đầu tiên Việt Nam có cùng lúc 2 người lọt vào bảng xếp hạng tỷ phú thế giới, đó là ông chủ Thaco Trần Bá Dương và Chủ tịch Hòa Phát Trần Đình Long. Sự ghi nhận vào tháng 3/2018 của Forbes càng trở nên có ý nghĩa bởi ông Long và ông Dương được xướng tên khi có xuất phát điểm là các doanh nhân trong ngành sản xuất, thay vì dịch vụ và bất động sản như hai nhân vật trước đó.</p>
+                                                <p>vOCS là hệ thống tính cước theo thời gian thực do các kỹ sư người Việt Nam của Viettel nghiên cứu phát triển trong nhiều năm. Được xem là trái tim của nhà mạng, giữ vai trò quan trọng trong việc thiết lập bài toán kinh doanh, tăng sự linh hoạt của hệ thống, vOCS tác động đến lượng lớn người sử dụng các sản phẩm khi cá thể hoá cho từng khách hàng, phục vụ khách hàng một cách riêng biệt.</p>
 
-                                                <p>Nếu ông Trần Bá Dương thành danh với Thaco - công ty sản xuất, lắp ráp, phân phối ô tô – thì ông Trần Đình Long lại được mệnh danh là “vua thép”. Điểm chung giữa hai vị tỷ phú này là cùng mở rộng hoạt động trong ngành bất động sản và nông nghiệp. Ông Trần Bá Dương giữ thêm ghế CEO tại Đại Quang Minh, còn ông Long cũng nắm trong tay công ty Xây dựng Hòa Phát. Riêng mảng nông nghiệp, “vua thép” có phần im ắng hơn người đồng nghiệp, khi ông Dương có cú bắt tay lịch sử trị giá 20.000 tỷ đồng cùng bầu Đức.</p>
+                                                <p>Với ưu thế về thời gian triển khai ngắn, chi phí ban đầu thấp, đáp ứng yêu cầu tính cước với thời gian xử lý < 50 mili giây là 99,99%, cùng khả năng khả năng thiết kế cho mỗi khách hàng một gói cước - điều mà chưa một OCS nào trên thế giới làm được - phiên bản vOCS thế hệ mới của Viettel đã rất thành công ở cả Việt Nam và thế giới. Viettel đã đưa vOCS 3.0 vào sử dụng tại 11 nước với 170 triệu thuê bao di động, với dung lượng mỗi site có thể đáp ứng đến 100 triệu thuê bao.</p>
 
-                                                <p>Tuy gặp nhiều diễn biến bất lợi của thị trường và ảnh hưởng từ các chính sách thuế, thậm chí có lúc tài sản không được định giá tỷ đô, nhưng cuối cùng, ông Long và ông Dương vẫn ở ngôi vị những người giàu nhất hành tinh trong bảng xếp hạng tháng 12 của Forbes.</p>
+                                                <p>Phiên bản mới nhất của vOCS đã được hoàn thiện, hướng tới hỗ trợ công nghệ ảo hoá mạng lưới, mô hình mạng viễn thông ảo, phân chia mạng và hỗ trợ các thuê bao không phải người dùng (M2M) lên tới hàng tỷ thuê bao. Với vOCS 4.0, Việt Nam đã trở thành một trong những  sản xuất OCS hỗ trợ công nghệ tiến tiến ảo hoá, cũng là xu hướng chung của thế giới, mở ra cơ hội kinh doanh trên toàn cầu, mà trước hết là ở các thị trường châu Á như Indonesia, Philippines, Pakistan... Trong dịp tham dự MWC 2019, Viettel sẽ giới thiệu vOCS thế hệ mới với những nhà mạng lớn nhất thế giới về những ưu việt của giải pháp do nhà cung cấp đến từ Việt Nam phát triển.</p>
+
+                                                <video src="https://r5---sn-npoeenez.c.drive.google.com/videoplayback?id=096bb90fdf12dc59&itag=37&source=webdrive&requiressl=yes&mm=30&mn=sn-npoeenez&ms=nxu&mv=u&pl=24&sc=yes&ttl=transient&ei=A3VzXJG5McfxugLfmJ_4CA&susc=dr&driveid=1drTb1NhFE-PSQjDMp2n_0_K9KLdbi2Xy&app=texmex&mime=video/mp4&dur=290.342&lmt=1551066642493736&mt=1551069719&ip=203.210.143.117&ipbits=0&expire=1551084867&cp=QVNKU0FfU1hUSFhOOklSTS1DS0RLSWp0&sparams=ip,ipbits,expire,id,itag,source,requiressl,mm,mn,ms,mv,pl,sc,ttl,ei,susc,driveid,app,mime,dur,lmt,cp&signature=520ED8D1BA9E2D083685B9961511637BB525C58237F9BF04AF51679631412F02.3C7E818ECD2F1726430A340AF2E412B77B603A9B49EDF8B6B9C1221DA0430D07&key=us0&cpn=KB7EyTfL9R4WbgzM&c=WEB_EMBEDDED_PLAYER&cver=20190221" controls></video>
                                             </div>
                                         </div>
                                     </div>
@@ -284,23 +259,20 @@
                                 <div class="swim-item swiper-slide">
                                     <div class="swimi-left">
                                         <img src="images/front-3.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
                                     </div>
 
                                     <div class="swimi-right">
                                         <img src="images/subtitle-3.png" alt="" class="cwi-img">
-                                        <img src="images/quote-3.png" alt="" class="cwi-img">
 
                                         <div class="swimir-content">
                                             <div class="swimirc-main">
-                                                <p>Diễn ra từ 11 đến 13/9/2018, Diễn đàn Kinh tế thế giới về Đông Nam Á 2018 (WEF ASEAN) có sự tham dự của 9 lãnh đạo cấp cao các nước Đông Nam Á cùng hơn 1.000 doanh nghiệp thành viên WEF, trải qua 60 phiên thảo luận chuyên đề, cùng một hội nghị thượng đỉnh bên lề.</p>
+                                                <p>EPC (Evolved Packet Core) là hệ thống mạng lõi chuyển mạch gói cung cấp dịch vụ (cả thoại và dữ liệu) trên nền tảng mạng di động 4G LTE (Long Term Evolution). EPC được coi là trung tâm vận chuyển dữ liệu của mạng di động giúp cho người dùng data nhanh hơn và thiết lập cuộc gọi volte với độ trễ thấp.  Đây là sản phẩm được các kỹ sư của Viettel(30 kỹ sư trong nước) phát triển để thay thế hoàn toàn giải pháp của các nhà cung cấp nước ngoài, vốn không thể đáp ứng nhu cầu tùy biến và triển khai nhanh ở Việt Nam.</p>
 
-                                                <p>Là chủ nhà của WEF, Việt Nam đã tạo ra sự kiện mang tầm khu vực thành công nhất của WEF trong 27 năm qua. Đây là lần đầu tiên, Tổng bí thư Nguyễn Phú Trọng tham dự phiên khai mạc của WEF ASEAN. Thủ tướng Nguyễn Xuân Phúc, các phó thủ tướng và 7 bộ trưởng đã tham gia các phiên đối thoại trong suốt thời gian diễn ra hội nghị.</p>
+                                                <p>Nhờ làm chủ công nghệ lõi xử lý chuyển mạch dữ liệu tốc độ cao, EPC hỗ trợ tính năng cho phép thực thi các gói cước dữ liệu rất đa dạng, giúp Viettel tăng cường khả năng chuẩn bị của hệ thống và triển khai siêu nhanh các gói cước 4G (gấp khoảng hơn 8 lần so với đối tác nước ngoài). Việc Viettel làm chủ hệ thống mạng lõi 4G, sẽ giúp người dùng bảo mật được thông tin khi truy cập dữ liệu.  Bên cạnh đó, EPC cũng giúp Viettel tiết kiệm hàng chục triệu USD đầu tư vào hệ thống khi các kỹ sư trong nước đã làm chủ hệ thống mạng lõi 4G.</p>
 
-                                                <p>Với thông điệp “Cách mạng Công nghiệp 4.0 là tương lai của ASEAN”, các nhà lãnh đạo khối đã đưa ra nhiều ý tưởng cùng bài học kinh nghiệm nhằm thúc đẩy hơn nữa sự gắn kết cộng đồng, cùng định hình một “tầm vóc mới” cho ASEAN trong bối cảnh thế giới bước sâu vào cách mạng công nghệp lần thứ 4.</p>
+                                                <p>Hiện tại hệ thống đã được triển khai thành công tại Việt Nam và chuẩn bị chào bán cho các thị trường mà Viettel đang kinh doanh ở nước ngoài. Sau khi tìm hiểu, một tập đoàn công nghệ rất lớn của thế giới cũng đang xem xét cơ hội hợp tác với Viettel trong việc triển khai sản phẩm này.</p>
 
-                                                <p>Thành công của WEF ASEAN 2018 còn được ghi nhận bởi tính phổ cập của sự kiện này trên mang xã hội – một biểu tượng của xã hội số hiện đại. 60 phiên thảo luận thu hút hơn 90.000 người theo dõi trực tiếp, 7 triệu người theo dõi qua mạng xã hội (facebook và twitter), 13.000 đánh giá bình luận.</p>
+                                                <video src="https://r5---sn-npoeenez.c.drive.google.com/videoplayback?id=096bb90fdf12dc59&itag=37&source=webdrive&requiressl=yes&mm=30&mn=sn-npoeenez&ms=nxu&mv=u&pl=24&sc=yes&ttl=transient&ei=A3VzXJG5McfxugLfmJ_4CA&susc=dr&driveid=1drTb1NhFE-PSQjDMp2n_0_K9KLdbi2Xy&app=texmex&mime=video/mp4&dur=290.342&lmt=1551066642493736&mt=1551069719&ip=203.210.143.117&ipbits=0&expire=1551084867&cp=QVNKU0FfU1hUSFhOOklSTS1DS0RLSWp0&sparams=ip,ipbits,expire,id,itag,source,requiressl,mm,mn,ms,mv,pl,sc,ttl,ei,susc,driveid,app,mime,dur,lmt,cp&signature=520ED8D1BA9E2D083685B9961511637BB525C58237F9BF04AF51679631412F02.3C7E818ECD2F1726430A340AF2E412B77B603A9B49EDF8B6B9C1221DA0430D07&key=us0&cpn=KB7EyTfL9R4WbgzM&c=WEB_EMBEDDED_PLAYER&cver=20190221" controls></video>
                                             </div>
                                         </div>
                                     </div>
@@ -309,21 +281,20 @@
                                 <div class="swim-item swiper-slide">
                                     <div class="swimi-left">
                                         <img src="images/front-4.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
                                     </div>
 
                                     <div class="swimi-right">
                                         <img src="images/subtitle-4.png" alt="" class="cwi-img">
-                                        <img src="images/quote-4.png" alt="" class="cwi-img">
 
                                         <div class="swimir-content">
                                             <div class="swimirc-main">
-                                                <p>Chịu áp lực không nhỏ từ biến động kinh tế toàn cầu và xu thế dịch chuyển dòng vốn, Việt Nam vẫn tiếp tục đạt được những thành tựu ấn tượng về tăng trưởng kinh tế khi kết thúc năm 2018 ở mức 7% - mức tăng trưởng cao nhất trong 10 năm qua. Con số này thậm chí vượt qua Trung Quốc, và cao hơn nhiều so với các nước trong khu vực ASEAN.</p>
+                                                <p>Nếu coi mỗi khách hàng là một pixel thì Geolocation là một bức tranh hàng triệu pixel, thể hiện chất lượng mạng vô tuyến đầy đủ và thường xuyên nhất từ chính người dùng nhằm phát hiện các vùng lõm, tuyến đường chất lượng mạng kém mà không cần thực hiện các chiến dịch đo kiểm tốn kém, ít hiệu quả. Đây là sản phẩm tiên phong hỗ trợ phát hiện lỗi, vấn đề về mặt vô tuyến và vị trí của từng thuê bao ở mọi thời điểm, qua đó cung cấp đầu vào quan trọng để tối ưu chất lượng trải nghiệm khách hàng.</p>
 
-                                                <p>Đóng góp vào thành công này không thể không kể tới nỗ lực của Chính phủ trong kiểm soát lạm phát (dưới 4%), gánh nặng nợ công giảm, thị trường tài chính ổn định, bội chi ngân sách dưới ngưỡng mục tiêu, đầu tư toàn xã hội chuyển dịch tích cực, trong khi giải ngân FDI đạt kỷ lục. Quy mô nền kinh tế năm 2018 tăng mạnh, ước đạt trên 5,5 triệu tỷ đồng (khoảng 240,5 tỷ USD), gấp trên 1,3 lần năm 2015. GDP bình quân đầu người ước đạt 2.540 USD, tăng 440 USD so với năm 2015.</p>
+                                                <p>Hệ thống bao gồm dữ liệu thông tin người dùng, từ cuộc gọi, thời gian, chất lượng mạng, đưa thông tin lên bản đồ chất lượng, xác định tự động các vùng lõm (chất lượng mạng thấp nhất) để giúp các đơn vị cung cấp dịch vụ nhanh chóng xác minh nguyên nhân và khắc phục sự cố. Với Geolocation, Viettel đứng vào hàng ngũ các nhà mạng hiếm hoi trên thế giới có thể phát triển được phần mềm hữu dụng này.</p>
 
-                                                <p>Sự tăng trưởng ổn định của kinh tế Việt Nam cũng nhận được đánh giá cao từ các tổ chức quốc tế. Theo báo cáo của Viện Toàn cầu McKinsey (MGI) công bố ngày 12/9 tại Diễn đàn Kinh tế Thế giới (WEF), Việt Nam nằm trong 18 nền kinh tế được đánh giá là "đạt hiệu quả vượt trội hơn" trong vòng 50 năm qua.</p>
+                                                <p>So với các phần mềm tương tự trên thế giới, Geolocation của Viettel là hệ thống duy nhất hỗ trợ nhiều loại mạng (3G, 4G) trên nhiều vendor khác nhau (Ericsson, Huawei, Nokia) trong 1 sản phẩm duy nhất. Đây cũng là sản phẩm đạt độ chính xác định vị hàng đầu thế giới, đảm bảo hiệu năng ổn định trong khi chỉ mất chi phí phát triển thấp và đã triển khai cho 3G, 4G Hà Nội và TP. HCM.</p>
+
+                                                <video src="https://r1---sn-npoe7ned.c.drive.google.com/videoplayback?expire=1551077502&ei=PlhzXJDwLcSquwW-_aSgAg&ip=203.210.143.117&cp=QVNKU0FfVlVOQ1hOOnlldFZUQ0N4RFZhQ04tV1JXTHdRR09Ya0pJQTdHeWlNV04xNmkzXzh2bTU&id=5b6b91afc7330415&itag=37&source=webdrive&requiressl=yes&mm=30&mn=sn-npoe7ned&ms=nxu&mv=u&pl=24&ttl=transient&susc=dr&driveid=1Biz4hsy6WXzb_nl6lJKPx9EJqDuCKD1A&app=explorer&mime=video/mp4&dur=249.660&lmt=1551055764415546&mt=1551062027&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRQIhAKpmMuLAp4z1Dd0pt-2Nuq4kFAWzeTaymPDx-pvTp2GlAiArSHubFGjXvuH06Yvxf5-lvHX3U_eDVvKpR_5LClScAg==&lsparams=mm,mn,ms,mv,pl&lsig=AHylml4wRQIgX8xgSc_v45P6h_Z8Vg9ojz6wHJ4ef0T4RO058V6h15wCIQCLGE_ZtEpQF8aMF4L4Uc-g71Awh4rNCzRttVVQ8mAv5A==&cpn=w4hZK9ze3ujXeDUX&c=WEB_EMBEDDED_PLAYER&cver=20190221" controls></video>
                                             </div>
                                         </div>
                                     </div>
@@ -332,21 +303,20 @@
                                 <div class="swim-item swiper-slide">
                                     <div class="swimi-left">
                                         <img src="images/front-5.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
                                     </div>
 
                                     <div class="swimi-right">
                                         <img src="images/subtitle-5.png" alt="" class="cwi-img">
-                                        <img src="images/quote-5.png" alt="" class="cwi-img">
 
                                         <div class="swimir-content">
                                             <div class="swimirc-main">
-                                                <p>Tháng 8/2018, Vingroup lần đầu tiên công bố chiến lược đầu tư trọng điểm trong 10 năm, nhằm biến công ty vốn thành công nhờ bất động sản trở thành tập đoàn đẳng cấp quốc tế về công nghệ - công nghiệp - dịch vụ. Kể từ đây, Vingroup liên tục trở thành tâm điểm báo chí trong và ngoài nước nhờ những màn ra mắt hoành tráng, những tham vọng khiến thế giới cũng phải ngạc nhiên, bên cạnh dấu ấn Việt Nam đậm nét trong từng sản phẩm.</p>
+                                                <p>Được coi là agency đặc biệt của nhà mạng, Hệ thống Quản lý chiến dịch (Campaign management) là phần mềm kế hoạch, xây dựng, triển khai, đánh giá và điều chỉnh các chương trình khuyến mại cho nhà cung cấp dịch vụ viễn thông, để tạo nên chính sách bán hàng và khuyến mãi ở mức cá thể hóa cho từng khách hàng, nhằm phục vụ hiệu quả hơn và tăng khả năng cạnh tranh so với đối thủ.</p>
 
-                                                <p>2 tháng sau, công ty con của Vingroup là VinFast gây tiếng vang lớn khi là nhà phát triển ô tô đầu tiên của Việt Nam tham dự Paris Motor Show. Tháng 11, công ty này ra mắt 3 mẫu ô tô, 1 mẫu xe máy trong một buổi lễ kéo dài 2 ngày ở Hà Nội. Đến tháng 12, công ty con VinSmart trình làng 4 mẫu điện thoại di động VSmart, chỉ sau 6 tháng khởi công nhà máy.</p>
+                                                <p>Với Hệ thống Quản lý chiến dịch Campaign Management, nhà mạng có thể tối ưu hóa doanh thu trên mỗi khách hàng, khám phá thêm thói quen và xu hướng tiêu dùng mới, đánh giá các chiến dịch… nhằm tạo nên kho thông tin và đẩy mạnh doanh số.</p>
 
-                                                <p>Bên cạnh dấu ấn kinh doanh, Vingroup còn ghi điểm khi là doanh nghiệp đầu tiên chia sẻ gánh nặng phí bản quyền truyền hình để cùng VTV đưa World Cup về Việt Nam vào tháng 6/2018 với số tiền tài trợ 5 triệu USD và không nhận bất cứ quyền lợi tài trợ nào từ đó.</p>
+                                                <p>Dưới sự nghiên cứu của các kỹ sư Viettel, Campaign Management phát triển dựa trên 3 nền tảng công nghệ đột phá mới, gồm xử lý dữ liệu song song in-memory trên cụm máy chủ (cluster computing); Kho dữ liệu phân tán kết hợp dữ liệu lớn Big Data; Triển khai các tương tác với khách hàng theo nguồn dữ liệu thời gian thực.</p>
+
+                                                <video src="https://r4---sn-npoe7nez.c.drive.google.com/videoplayback?expire=1551077273&ei=WVdzXMaRKIGjuQWB5KVQ&ip=203.210.143.117&cp=QVNKU0FfVlJVRFhOOnlldFZRSkR4RFZhQ04tVFlYTHdRR09Ya0dQQjdHeWlNV044M2ozXzh2bTU&id=259751de80672953&itag=37&source=webdrive&requiressl=yes&mm=30&mn=sn-npoe7nez&ms=nxu&mv=u&pl=24&ttl=transient&susc=dr&driveid=1T-Gs-HG8sAIaTCJqh6E1iEh70Edm-kDr&app=explorer&mime=video/mp4&dur=79.946&lmt=1551054076005091&mt=1551062027&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRQIhALUyk8QwGjMkTgY3DJyMwbhztFR9DCVYHJpFQf-EbDSPAiBfeY-Eyo70MIfp0QL-vOtDyYkZgkekbVTp8YuCGsMo7g==&lsparams=mm,mn,ms,mv,pl&lsig=AHylml4wRgIhAPcgy-fheCvSSV4Q_BuYvMRBprktwq2N6WCK1bwS54WNAiEAgvifpEutsCLVu6zL1z1IWA9bjHtfBsYLeoh0n97Ryy4=&cpn=91f_NjEYh0zQAKSc&c=WEB_EMBEDDED_PLAYER&cver=20190221" controls></video>
                                             </div>
                                         </div>
                                     </div>
@@ -355,21 +325,22 @@
                                 <div class="swim-item swiper-slide">
                                     <div class="swimi-left">
                                         <img src="images/front-6.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
                                     </div>
 
                                     <div class="swimi-right">
                                         <img src="images/subtitle-6.png" alt="" class="cwi-img">
-                                        <img src="images/quote-6.png" alt="" class="cwi-img">
 
                                         <div class="swimir-content">
                                             <div class="swimirc-main">
-                                                <p>Tháng 1/2015, sự kiện “con ruồi trong chai Dr Thanh” xảy ra, đẩy Tân Hiệp Phát từ vị thế ông lớn nước giải khát Việt Nam xuống vũng lầy scandal đúng thời điểm người tiêu dùng đang nhạy cảm về vấn đề chất lượng thực phẩm. Chỉ sau 1 đêm, toàn bộ sản phẩm của hãng trên kệ của nhiều siêu thị bị thay thế bằng thương hiệu đối thủ, cùng với đó là thiệt hại khó đo đếm về tên tuổi và tài chính.</p>
+                                                <p>Được điều hành và thực hiện bởi 30 nhân sự thuộc Trung tâm An ninh mạng Viettel, Dịch vụ giám sát, xử lý sự cố An toàn thông tin 24/7 (Viettel SOC) được xem là trạm gác an toàn cho hệ thống Công nghệ thông tin của các cơ quan nhà nước, bộ, ban, ngành chính phủ, doanh nghiệp lớn, doanh nghiệp vừa và nhỏ.</p>
 
-                                                <p>Vượt qua khó khăn bằng sự im lặng lạ lùng, Tân Hiệp Phát đưa nhà máy NumberOne Hà Nam vào hoạt động, vực dậy mảng bán hàng, chạm doanh thu 7.000 tỷ đồng năm 2017. Năm 2018, công ty này trở lại top 5 thương hiệu đồ uống mạnh nhất Việt Nam, vươn tới doanh thu 1 tỷ USD, đồng thời đặt kế hoạch Mỹ tiến năm 2023 và 3 tỷ USD doanh thu năm 2030.</p>
+                                                <p>Toàn bộ hoạt động giám sát & ứng cứu sự cố sử dụng các công cụ kỹ thuật hỗ trợ cho Viettel tự phát triển 100%. Trong đó có ứng dụng công nghệ Big Data, Data Mining và Machine Learning để phát hiện các hình thức tấn công, các bất thường xảy ra trong hệ thống… , cùng công nghệ vượt trội Advanced Malware Analysis ứng dụng nền tảng ảo hóa Hypervisor giúp phân tích mã độc tự động, đa lớp với số lượng lớn đồng thời.</p>
 
-                                                <p>Trong cuốn sách mang tên “Competing With Giants” do Trần Uyên Phương – con gái nhà sáng lập Trần Quí Thanh – là đồng tác giả, phát hành bởi ForbesBooks, câu chuyện THP từ chối lời đề nghị mua lại trị giá 2,5 tỷ USD của Coca-Cola vào năm 2012 lần đầu được tiết lộ. Cuốn sách kể về cách thức tồn tại và thành công của một công ty gia đình giữa áp lực thâu tóm của các ông lớn đa quốc gia sau đó đã trở thành tác phẩm duy nhất của người Việt lọt top 5 đề cử giải sách hay 2018 do American Book Fest tổ chức.</p>
+                                                <p>Hệ thống sử dụng quy trình 6 bước, gồm giám sát và nhận biết sự cố, đưa ra hướng dẫn xử lý nhanh cho khách hàng, giúp đỡ xử lý các sự cố khó, cảnh báo sớm, rà soát hệ thống, đưa giải pháp giám sát đặc biệt và báo cáo sự cố theo thời gian thực, đảm bảo cảnh báo và hoá giải nguy cơ từ các cuộc tấn công mã độc, tấn công web, tấn công khai thác lỗ hổng,…</p>
+
+                                                <p>Nhờ cơ chế “giúp việc từ chuyên gia”, tương tác 2 chiều trên Viettel SOC, các đơn vị không cần xây dựng đội ngũ nhân sự giám sát riêng, còn việc thống nhất quy trình phối hợp chỉ tốn 1 ngày để triển khai tấm khiên an toàn cho hệ thống thông tin.</p>
+
+                                                <video src="https://r4---sn-npoe7n76.c.drive.google.com/videoplayback?expire=1551076615&ei=x1RzXJ3pDpPduAXlmL-IDA&ip=203.210.143.117&cp=QVNKU0FfVVZPRlhOOnlldFVVREZ4RFZhQ04tWFNaTHdRR09YaktKRDdHeWlNV00yN2wzXzh2bTU&id=360f37c0a236ea33&itag=37&source=webdrive&requiressl=yes&mm=30&mn=sn-npoe7n76&ms=nxu&mv=u&pl=24&ttl=transient&susc=dr&driveid=1VPf9qrLC4v3KAL9QGf8yXG3M0oqE3VV1&app=explorer&mime=video/mp4&dur=284.305&lmt=1551054230867684&mt=1551062027&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRAIgY84oO-5FtYThcmZNEugLxcLXU3O9NU47-1LTZ8vBgX4CIHxQzka8gRMM6vJt5osT2wyo6a9u0CyBEjgHRpRzBzTc&lsparams=mm,mn,ms,mv,pl&lsig=AHylml4wRgIhAPute-XR45JGBrwe7LfLDFdNVA-yDYhMI9PI9KdQs15mAiEA8vcpv-ITogBVBKxQkY7RgnAicB55j74TDrumRQBrVzc=&cpn=snS5Jr32S6WLMuUU&c=WEB_EMBEDDED_PLAYER&cver=20190221" controls></video>
                                             </div>
                                         </div>
                                     </div>
@@ -378,23 +349,20 @@
                                 <div class="swim-item swiper-slide">
                                     <div class="swimi-left">
                                         <img src="images/front-7.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
                                     </div>
 
                                     <div class="swimi-right">
                                         <img src="images/subtitle-7.png" alt="" class="cwi-img">
-                                        <img src="images/quote-7.png" alt="" class="cwi-img">
 
                                         <div class="swimir-content">
                                             <div class="swimirc-main">
-                                                <p>Diễn ra muộn và bớt ồn ào hơn nhiều so với 2 phiên bản tiền nhiệm, lễ ra mắt Bphone 3 được xem là phần trình diễn khiêm tốn nhưng chứa đựng nhiều bất ngờ nhất đến từ BKAV, tương ứng với nhận xét được CEO Nguyễn Tử Quảng nói: “Chất thật!”. Chiếc điện thoại có thiết kế tràn đáy lạ mắt, cùng hai cạnh bên rất mỏng, được xem là phiên bản “dày trán, mỏng cằm” chưa từng xuất hiện trên thị trường.</p>
+                                                <p>Được xây dựng nhằm tạo ra công cụ đắc lực cho chính quyền thành phố và đơn vị vận hành quản lý hoạt động bãi đỗ một cách minh bạch và thông suốt, hệ thống Bãi đỗ xe thông minh (Car Parking) vận hành thông qua ứng dụng mobile do các kỹ sư của Viettel nghiên cứu và phát triển. Tích hợp thông tin về số điểm đỗ trống, tỷ lệ lấp đầy, giờ mở cửa, phí đỗ xe..., ứng dụng cho phép người dùng thực hiện thao tác tìm kiếm, đặt chỗ và thanh toán phí đỗ xe một cách tiện lợi.</p>
 
-                                                <p>Theo BKAV, hãng đã phải nỗ lực lớn trong việc nghiên cứu thiết kế cơ khí, điện tử và ăng-ten để có được cạnh đáy mỏng như vậy. Sản phẩm được cập nhật trào lưu màn hình tỷ lệ 18:9 trên kích thước 6 inch với bề ngang gọn, tổng thể vuông vức khác biệt so với đa số đối thủ trên thị trường.</p>
+                                                <p>Hệ thống Bãi đỗ xe thông minh của Viettel bao gồm 4 phân hệ chính là ứng dụng My mobile parking cho tài xế, ứng dụng mobile cho người giám sát, quản trị bãi đỗ và phân tích dữ liệu. Với người có nhu cầu tìm kiếm nơi đỗ xe, ứng dụng không chỉ tự động gợi ý điểm đến gần nhất mà còn thực hiện thông báo giá, cho phép thanh toán qua nhiều phương thức thuận tiện như qua Visa, qua tin nhắn SMS, Bankplus/Viettel pay; kết nối để giám sát qua camera và tương tác chia sẻ địa chỉ, review với bạn bè sau khi đăng nhập tài khoản.</p>
 
-                                                <p>Ngoài nỗ lực phần cứng, nhà sản xuất cũng loại bỏ hoàn toàn các phím điều hướng quen thuộc của Android (back, home và đa nhiệm) thay bằng các điều khiển cử chỉ. Bên cạnh đó, với ưu thế là công ty chuyên về an ninh mạng, BKAV mang tới ứng dụng chặn triệt để tin nhắn rác, diệt virus và chống trộm. Thậm chí, các thao tác định vị điện thoại, ra lệnh cho camera, khóa máy có thể được thực hiện từ xa nếu chiếc Bphone 3 chẳng may thất lạc, bị đưa về chế độ cài đặt gốc.</p>
+                                                <p>Với các nhà quản lý, giám sát, hệ thống này ghi nhận báo cáo doanh thu, cài đặt cấu hình và giá cho từng vị trí, đồng thời ghi nhận và cảnh báo vi phạm trong bãi đỗ, lưu dấu lịch sử ra vào… Việc phát triển thành công hệ thống này không chỉ tiết kiệm chi phí và tài nguyên cho quốc gia, mà còn hỗ trợ tạo lập thành dịch vụ công cộng và thành phố thông minh.</p>
 
-                                                <p>Sau 3 tháng ra mắt, Bphone 3 đã bán được hơn 10.000 máy, vượt con số bán cả năm của Bphone 2 trước đó.</p>
+                                                <video src="https://r2---sn-npoe7ne6.c.drive.google.com/videoplayback?expire=1551077232&ei=MFdzXNGZNozAuwWEoqiwCw&ip=203.210.143.117&cp=QVNKU0FfVlJRQ1hOOnlldFZRRkN4RFZhQ04tVFVXTHdRR09Ya0dMQTdHeWlNV044OWkzXzh2bTU&id=2eb7346852592040&itag=37&source=webdrive&requiressl=yes&mm=30&mn=sn-npoe7ne6&ms=nxu&mv=u&pl=24&ttl=transient&susc=dr&driveid=1rHCHEjsDIRJZEyRupotR4-Y_AgUVpDl8&app=explorer&mime=video/mp4&dur=156.966&lmt=1551053978792015&mt=1551062027&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAM5LHXuzG7dzngcaouo3EI7jAuv0FYkbSHivSi12kYXAAiEApR-nX0ilbfiRZ0zpvMabeZ0rupqP57K9wlthDzXaQrU=&lsparams=mm,mn,ms,mv,pl&lsig=AHylml4wRAIgLEchQmYyC6Xeo8loanKisrE4m3tK9wZlXVshMwEryv8CIE2tm68PNUNuzN4xedHxCfxM6vGkNO7N4xZv-e8ITKEw&cpn=wI4oIZX6tkje05wE&c=WEB_EMBEDDED_PLAYER&cver=20190221" controls></video>
                                             </div>
                                         </div>
                                     </div>
@@ -403,69 +371,20 @@
                                 <div class="swim-item swiper-slide">
                                     <div class="swimi-left">
                                         <img src="images/front-8.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
                                     </div>
 
                                     <div class="swimi-right">
                                         <img src="images/subtitle-8.png" alt="" class="cwi-img">
-                                        <img src="images/quote-8.png" alt="" class="cwi-img">
 
                                         <div class="swimir-content">
                                             <div class="swimirc-main">
-                                                <p>Nằm trong quần thể vườn Thiên Thai, thuộc khu du lịch Bà Nà Hills (Đà Nẵng), vừa được khánh thành vào tháng 6/2018, cầu Vàng được thiết kế nằm trên độ cao 1.400m so với mực nước biển, dài 150m, gồm 8 nhịp,  rộng 12,8m, được sơn vàng, mô tả hình ảnh dải lụa mềm mại, đối lập với trụ cầu được thiết kế hình hai bàn tay khổng lồ phủ rêu phong, tựa như của những vị thần vươn ra từ núi đá.</p>
+                                                <p>Với ưu thế là mạng viễn thông lớn nhất Việt Nam, sở hữu trung tâm dữ liệu chuẩn quốc tế, từng triển khai nhiều hạng mục trong các dự án công nghệ thông tin về chính quyền điển tử và đô thị thông minh, Viettel đã tiến thêm một bước dài khi cho ra đời Trung tâm điều hành thông minh, có thể phục vụ linh động cho từng mô hình thành phố ở Việt Nam.</p>
 
-                                                <p>Công trình do Công ty Kiến trúc cảnh quan TA thực hiện trong vòng gần 1 năm, được cho là một phần thuộc dự án trị giá 2 tỷ USD nhằm tạo nên sức hút mới cho du lịch địa phương. Chỉ trong vòng 9 tháng, tổng lượt khách du lịch đến thành phố ước đạt 6,5 triệu lượt, tăng 27,7% so với cùng kỳ 2017, trong số đó, gần một nửa du khách tìm đến Đà Nẵng bởi sức hút của cây cầu nổi tiếng này.</p>
+                                                <p>Theo đó, với 8 trung tâm chức năng chính, Trung tâm điều hành thông minh của Viettel sẽ đóng vai trò bộ não, là đơn vị thực hiện cơ chế phối hợp giám sát, điều hành các lĩnh vực ảnh hưởng trực tiếp đến hoạt động của thành phố như: Giao thông, An ninh công cộng, Ứng cứu khẩn cấp, Cứu nạn, cứu hộ, Cung cấp điện, Chiếu sáng đô thị, Cấp thoát nước, Thời tiết, Môi trường... của các cơ quan quản lý nhà nước, các doanh nghiệp dịch vụ công ích của thành phố.</p>
 
-                                                <p>Với tầm nhìn tuyệt đẹp xen giữa biển mây và núi non, cầu Vàng lọt vào mắt xanh của nhiều trang kiến trúc và du lịch nổi tiếng như BBC, AFP, Reuters, CNN, Archdaily, Guardian... Là cây cầu hiếm hoi trên thế giới không bắc qua một dòng sông hay vịnh biển nào, cầu Vàng được tạp chí Times xếp hạng đầu tiên trong top 100 điểm đến đẹp nhất thế giới năm 2018 nhờ thiết kế phá vỡ giới hạn, dẫn đầu các xu thế trong ngành và đem lại trải nghiệm phi thường cho người xem.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                                <p>Kể từ năm 2016, Viettel đã tư vấn, ký hợp tác chiến lược và triển khai Thành phố thông minh cho 22 đơn vị trong số 33 tỉnh, thành phố trực thuộc trung ương tại Việt Nam, chiếm 67%. Thế mạnh của các giải pháp điều hành thông minh của Viettel là sử dụng công nghệ mới nhất của thế giới nhưng “may đo” cho từng khách hàng riêng biệt và có thể làm với tốc độ triển khai nhanh – điều mà các nhà cung cấp giải pháp lớn trên thế giới hiếm khi thực hiện. Đây cũng là lợi thế mà Viettel sử dụng để được các giải pháp số của mình ra thế giới.</p>
 
-                                <div class="swim-item swiper-slide">
-                                    <div class="swimi-left">
-                                        <img src="images/front-9.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
-                                    </div>
-
-                                    <div class="swimi-right">
-                                        <img src="images/subtitle-9.png" alt="" class="cwi-img">
-                                        <img src="images/quote-9.png" alt="" class="cwi-img">
-
-                                        <div class="swimir-content">
-                                            <div class="swimirc-main">
-                                                <p>Cuộc điện thoại bất ngờ của ông Phạm Nhật Vượng cho Chủ tịch Coteccons Nguyễn Bá Dương vào năm 2014 trong những ngày sát hạn chót nhận thầu đã trở thành kết nối đầy cảm xúc của những con người muốn tạo nên điều kỳ diệu cho ngành xây dựng Việt Nam. Vượt qua Lotte và SsangYong (Hàn Quốc), Coteccons trở thành tổng thầu của tòa nhà cao nhất Việt Nam với giá trị gói thầu khoảng 6.000 tỷ đồng, và là công ty Việt Nam làm tổng thầu một siêu dự án tầm cỡ thế giới.</p>
-
-                                                <p>Sau 19 tháng xây dựng, Landmark 81 đã khai trương vào ngày 26/7/2018, vượt qua những giới hạn chủ quan về kinh nghiệm, lẫn khách quan là thời tiết, và lập nên kỷ lục Việt Nam về tốc độ xây dựng. Công trình với 81 tầng, cao 461,3m, trở thành tòa nhà cao nhất Việt Nam và nằm trong top 8 công trình chọc trời thế giới.</p>
-
-                                                <p>Lấy cảm hứng từ bó tre truyền thống của Việt Nam với những đỉnh nhấp nhô được tạo hình cao vút, Landmark 81 vươn lên bầu trời xanh thể hiện sức mạnh đoàn kết, lòng tự tôn dân tộc và sức mạnh kinh tế, chính trị trong thời đại hội nhập. Tòa nhà cao nhất Việt Nam cũng mang trong mình loạt điểm nhấn như sân băng trong nhà lớn nhất, đài quan sát cao nhất Việt Nam…</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swim-item swiper-slide">
-                                    <div class="swimi-left">
-                                        <img src="images/front-10.png" alt="">
-
-                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
-                                    </div>
-
-                                    <div class="swimi-right">
-                                        <img src="images/subtitle-10.png" alt="" class="cwi-img">
-                                        <img src="images/quote-10.png" alt="" class="cwi-img">
-
-                                        <div class="swimir-content">
-                                            <div class="swimirc-main">
-                                                <p>10 năm chờ đợi, vượt qua 91 đối thủ, Viettel đã chính thức khai trương mạng di động quốc tế thứ 10 tại Myanmar, lấy tên là Mytel, vào tháng 6/2018. Đây không chỉ là dự án được chuẩn bị dài hơi nhất của Tập đoàn Công nghiệp - Viễn thông Quân đội (Viettel), mà còn là dấu mốc kỷ lục đối với Viettel trong chặng đường 12 năm đầu tư nước ngoài: dự án có tổng vốn đầu tư lớn nhất (1,5 tỷ USD), công nghệ khai trương tốt nhất (mạng 4G trên toàn quốc), tạo nên mạng lưới cáp quang dài nhất (30.000km), tiếp cận thị trường quốc tế có quy mô dân số lớn nhất (53 triệu người).</p>
-
-                                                <p>Không phụ kỳ vọng, dự án này đã sớm gặt hái được những thành công lớn trong thời gian rất ngắn. Chỉ sau 1 tháng, Mytel đạt mục tiêu đặt ra cả năm trước ngày khai trương, là có được 2 triệu thuê bao, trong đó tỷ lệ thuê bao 4G chiếm tới 70%. Đầu tháng 12, sau 6 tháng khai trương, nhà mạng này vượt mốc 4 triệu thuê bao, chiếm hơn 10% thị phần di động tại Myanmar.</p>
-
-                                                <p>Với tốc độ phát triển này, Mytel là mạng di động tăng trưởng nhanh nhất trong lịch sử của Viettel và là hiện tượng của ngành di động thế giới. Trước đây, tại Việt Nam, Viettel mất 18 tháng để có 3 triệu thuê bao mà đã trở thành một hiện tượng của ngành viễn thông toàn cầu.</p>
-
-                                                <p>Theo dự kiến, Viettel Myanmar sẽ có lãi trong năm 2019.</p>
+                                                <video src="https://r3---sn-npoe7ner.c.drive.google.com/videoplayback?expire=1551076614&ei=xlRzXK3MEIzAuwWEoqiwCw&ip=203.210.143.117&cp=QVNKU0FfVVZPRVhOOnlldFVVREV4RFZhQ04tWFNZTHdRR09YaktKQzdHeWlNV00yN2szXzh2bTU&id=44da5b9ef33476ab&itag=37&source=webdrive&requiressl=yes&mm=30&mn=sn-npoe7ner&ms=nxu&mv=u&pl=24&ttl=transient&susc=dr&driveid=1kfxRKfRqCo9HLvX45XfmAGz-Jj21LJ15&app=explorer&mime=video/mp4&dur=198.809&lmt=1551054068298279&mt=1551062027&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRQIgeMC7W6E7Z-QV1im24mljUzzRI0r9mE7dz44ZdQRfKnICIQDb-QRL6axm6ElsBnVJrISv_i0KpTmYfmigR90t6V0bgA==&lsparams=mm,mn,ms,mv,pl&lsig=AHylml4wRgIhAPSZtv3Z8t4YL71V82XdO6cvTtOQbWNzoOyQz8bDLwRmAiEAt-a7fuhpstj-iO7HVfkCb13GzYdCRZYh5qU2GqquqaA=&cpn=xw3k6ur1yY_EzCly&c=WEB_EMBEDDED_PLAYER&cver=20190221" controls></video>
                                             </div>
                                         </div>
                                     </div>
