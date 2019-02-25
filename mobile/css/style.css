@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+}
+.cw-cover {
+    margin-bottom: 60px;
+}
+.cw-img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.cwm-detail {
+    margin-bottom: 60px;
+}
+.cwm-detail p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 25px;
+    padding: 0 15px;
+}
+.cwm-detail video {
+    width: 100%;
+}
