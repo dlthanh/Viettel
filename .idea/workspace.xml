@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="268" column="396" selection-start-line="268" selection-start-column="396" selection-end-line="268" selection-end-column="396" />
+            <state relative-caret-position="394">
+              <caret line="318" column="780" selection-start-line="318" selection-start-column="780" selection-end-line="318" selection-end-column="780" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -32,8 +32,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="46" column="364" selection-start-line="46" selection-start-column="364" selection-end-line="46" selection-end-column="364" />
+            <state relative-caret-position="298">
+              <caret line="76" column="748" selection-start-line="76" selection-start-column="748" selection-end-line="76" selection-end-column="748" />
             </state>
           </provider>
         </entry>
@@ -67,6 +67,12 @@
       <find>đội</find>
       <find>tránh “thẻ đỏ”</find>
       <find>Đây là sản phẩm được các kỹ sư của Viettel</find>
+      <find>soc</find>
+      <find>geo</find>
+      <find>SOC</find>
+      <find>điều hành</find>
+      <find>car</find>
+      <find>quản lý chi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551055075753</updated>
       <workItem from="1551055077140" duration="1966000" />
-      <workItem from="1551061389687" duration="7851000" />
+      <workItem from="1551061389687" duration="9266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9817000" />
+    <option name="totallyTimeSpent" value="11232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -241,8 +247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="268" column="396" selection-start-line="268" selection-start-column="396" selection-end-line="268" selection-end-column="396" />
+        <state relative-caret-position="394">
+          <caret line="318" column="780" selection-start-line="318" selection-start-column="780" selection-end-line="318" selection-end-column="780" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -251,8 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="46" column="364" selection-start-line="46" selection-start-column="364" selection-end-line="46" selection-end-column="364" />
+        <state relative-caret-position="298">
+          <caret line="76" column="748" selection-start-line="76" selection-start-column="748" selection-end-line="76" selection-end-column="748" />
         </state>
       </provider>
     </entry>
