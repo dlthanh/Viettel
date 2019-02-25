@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+}
+.cafef-wrapper {
+    background-color: #1a1821;
+}
+.cw-container {
+    height: 100vh;
+}
+.cw-item {
+    display: table;
+}
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.cwi-main {
+    width: 80%;
+    margin: 20px auto 0;
+    position: relative;
+}
+.cwi-img {
+    width: 100%;
+}
+.img-abs-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.arrow {
+    -webkit-animation: 0.6s arrow infinite alternate;
+    -o-animation: 0.6s arrow infinite alternate;
+    animation: 0.6s arrow infinite alternate;
+    cursor: pointer;
+}
+.cwim-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.cwiml-item {
+    width: 19%;
+    cursor: pointer;
+}
+.cw-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #1a1821;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.cwim-container {
+    position: absolute!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.swim-item {
+    background-color: #fff;
+    display: flex;
+}
+.swimi-left {
+    width: 39.6%;
+    position: relative;
+}
+.swimi-left img {
+    width: 100%;
+}
+.swimi-right {
+    width: calc(100% - 39.41513%);
+    padding: 2.6vw 2.6vw 2.6vw 4.5vw;
+    position: relative;
+}
+.swimi-right .cwi-img {
+    margin-bottom: 2vw;
+}
+.swimir-content {
+    position: absolute;
+    bottom: 2.6vw;
+    left: 4.5vw;
+    height: 52%;
+    width: calc(100% - 4.5vw - 2.6vw);
+}
+.swimirc-main {
+    padding-right: 40px;
+}
+.swimir-content p {
+    font-family: Arial, sans-serif;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    margin-bottom: 2vw;
+    color: #202020;
+}
+.cwim-next {
+    right: -40px!important;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%234e475d'%2F%3E%3C%2Fsvg%3E") !important;
+}
+.cwim-prev {
+    left: -40px!important;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%234e475d'%2F%3E%3C%2Fsvg%3E") !important;
+}
+.cwi-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1003;
+    width: 1.458333vw;
+    cursor: pointer;
+}
+.cwi-logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.swimil-logo {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: auto!important;
+}
+
+@keyframes arrow {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 10px
+    }
+}
+
+.flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+}
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.front {
+    z-index: 2;
+}
+.back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}

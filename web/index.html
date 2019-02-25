@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Top 10 nhân vật, sự kiện nổi bật của kinh tế Việt Nam năm 2018</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/slimscroll.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <!--<script src="js/flip.js"></script>-->
+    <script>
+        $(function() {
+            var cafef = new Swiper('.cw-container', {
+                speed: 600,
+                // effect: 'fade',
+                // fadeEffect: {
+                //     crossFade: true
+                // },
+                direction: 'vertical',
+                mousewheel: true,
+                allowTouchMove: false
+            });
+
+            var popup = new Swiper('.cwim-container', {
+                speed: 600,
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                },
+                allowTouchMove: false,
+                navigation: {
+                    nextEl: '.cwim-next',
+                    prevEl: '.cwim-prev',
+                },
+            });
+
+            $('.swimirc-main').slimScroll({
+                height: '100%',
+                size: '4px',
+                railVisible: true,
+                alwaysVisible: true,
+                color: '#c1c1c1',
+                railColor: '#e5e5e5',
+                opacity: 1,
+                railOpacity: 1
+            });
+
+            // $('.cwiml-item flip-container').flip({
+            //     trigger: 'hover',
+            //     speed: 600
+            // })
+
+            $('.cwiml-item').hover(function() {
+                $(this).toggleClass('hover');
+            }, function() {
+                $(this).toggleClass('hover');
+            });
+
+            $('.cwiml-item').click(function() {
+                $('.cw-popup').fadeIn(600);
+                popup.update();
+                popup.slideTo($(this).index(), 0);
+                $('.cw-item').eq(1).fadeOut(300);
+                cafef.mousewheel.disable();
+            });
+
+            $('.cwi-close').click(function() {
+                $('.cw-popup').fadeOut(300);
+                $('.cw-item').eq(1).delay(100).fadeIn(600);
+                cafef.mousewheel.enable();
+            });
+
+            // $('.cwim-next').click(function() {
+            //     popup.slideNext(600)
+            // });
+            //
+            // $('.cwim-prev').click(function() {
+            //     popup.slidePrev(600)
+            // });
+
+            $('.arrow').click(function() {
+                cafef.slideNext();
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="cafef-wrapper">
+        <div class="cw-container swiper-container">
+            <div class="swiper-wrapper">
+                <div class="cw-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="cwi-main">
+                            <img src="images/cover.png" alt="" class="cwi-img">
+                            <img src="images/arrow.png" alt="" class="cwi-img img-abs-bottom arrow">
+                        </div>
+                    </div>
+
+                    <img src="images/logo.png" alt="" class="cwi-logo">
+                </div>
+
+                <div class="cw-item swiper-slide">
+                    <div class="table-cell">
+                        <div class="cwi-main">
+                            <img src="images/frame.png" alt="" class="cwi-img">
+
+                            <div class="cwim-list">
+                                <div class="cwiml-item flip-container flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-1.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-1.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cwiml-item flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-2.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-2.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cwiml-item flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-3.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-3.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cwiml-item flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-4.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-4.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cwiml-item flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-5.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-5.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cwiml-item flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-6.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-6.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cwiml-item flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-7.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-7.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cwiml-item flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-8.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-8.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cwiml-item flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-9.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-9.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cwiml-item flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img src="images/front-10.png" alt="" class="cwi-img">
+                                        </div>
+                                        <div class="back">
+                                            <img src="images/back-10.png" alt="" class="cwi-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cw-popup hidden">
+            <div class="table">
+
+                <div class="table-cell">
+                    <div class="cwi-main">
+                        <img src="images/frame.png" alt="" class="cwi-img">
+
+                        <div class="cwim-container swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-1.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-1.png" alt="" class="cwi-img">
+                                        <img src="images/quote-1.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>Tháng 12/2018, tỷ phú Phạm Nhật Vượng – ông chủ của tập đoàn Vingroup – ghi tên mình vào danh sách 220 người giàu nhất thế giới, tiếp tục giữ vững danh hiệu doanh nhân Việt Nam được xếp hạng cao nhất trong lịch sử của Forbes, với 6,7 tỷ USD tài sản cá nhân được thống kê.</p>
+
+                                                <p>Năm 2018 ghi dấu lần đầu tiên ông Vượng trả lời phỏng vấn một kênh truyền thông trong nước, tiết lộ cách bản thân điều hành tập đoàn Vingroup, và tham vọng "không sống một cuộc đời phí hoài". Ông cũng có lần hiếm hoi xuất hiện trong buổi lễ ra mắt sản phẩm khi VinFast lần đầu đưa 3 mẫu ô tô và 1 mẫu xe máy điện ra thị trường. Dẫu vậy, vẫn đúng với phong cách cá nhân quen thuộc, ông không có bài phát biểu trong buổi lễ, cũng như chọn vị trí có phần khuất tầm nhìn trong suốt 40 phút của sự kiện.</p>
+
+                                                <p>Nhưng ở một khía cạnh khác, “đứa con” Vingroup dưới sức ảnh hưởng của vị chủ tịch 50 tuổi đang thực hiện đúng mục tiêu “Mãi mãi tinh thần khởi nghiệp” mà ông đặt ra: 9 tháng ra xe ô tô mẫu, 12 tháng ra xe máy điện, 6 tháng ra điện thoại thông minh, khởi công trường đại học, xây dựng viện công nghệ và dữ liệu lớn…., trở thành thế lực mới đầy kỳ vọng trong ngành công nghiệp – công nghệ Việt Nam.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-2.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-2.png" alt="" class="cwi-img">
+                                        <img src="images/quote-2.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>2018 là năm đầu tiên Việt Nam có cùng lúc 2 người lọt vào bảng xếp hạng tỷ phú thế giới, đó là ông chủ Thaco Trần Bá Dương và Chủ tịch Hòa Phát Trần Đình Long. Sự ghi nhận vào tháng 3/2018 của Forbes càng trở nên có ý nghĩa bởi ông Long và ông Dương được xướng tên khi có xuất phát điểm là các doanh nhân trong ngành sản xuất, thay vì dịch vụ và bất động sản như hai nhân vật trước đó.</p>
+
+                                                <p>Nếu ông Trần Bá Dương thành danh với Thaco - công ty sản xuất, lắp ráp, phân phối ô tô – thì ông Trần Đình Long lại được mệnh danh là “vua thép”. Điểm chung giữa hai vị tỷ phú này là cùng mở rộng hoạt động trong ngành bất động sản và nông nghiệp. Ông Trần Bá Dương giữ thêm ghế CEO tại Đại Quang Minh, còn ông Long cũng nắm trong tay công ty Xây dựng Hòa Phát. Riêng mảng nông nghiệp, “vua thép” có phần im ắng hơn người đồng nghiệp, khi ông Dương có cú bắt tay lịch sử trị giá 20.000 tỷ đồng cùng bầu Đức.</p>
+
+                                                <p>Tuy gặp nhiều diễn biến bất lợi của thị trường và ảnh hưởng từ các chính sách thuế, thậm chí có lúc tài sản không được định giá tỷ đô, nhưng cuối cùng, ông Long và ông Dương vẫn ở ngôi vị những người giàu nhất hành tinh trong bảng xếp hạng tháng 12 của Forbes.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-3.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-3.png" alt="" class="cwi-img">
+                                        <img src="images/quote-3.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>Diễn ra từ 11 đến 13/9/2018, Diễn đàn Kinh tế thế giới về Đông Nam Á 2018 (WEF ASEAN) có sự tham dự của 9 lãnh đạo cấp cao các nước Đông Nam Á cùng hơn 1.000 doanh nghiệp thành viên WEF, trải qua 60 phiên thảo luận chuyên đề, cùng một hội nghị thượng đỉnh bên lề.</p>
+
+                                                <p>Là chủ nhà của WEF, Việt Nam đã tạo ra sự kiện mang tầm khu vực thành công nhất của WEF trong 27 năm qua. Đây là lần đầu tiên, Tổng bí thư Nguyễn Phú Trọng tham dự phiên khai mạc của WEF ASEAN. Thủ tướng Nguyễn Xuân Phúc, các phó thủ tướng và 7 bộ trưởng đã tham gia các phiên đối thoại trong suốt thời gian diễn ra hội nghị.</p>
+
+                                                <p>Với thông điệp “Cách mạng Công nghiệp 4.0 là tương lai của ASEAN”, các nhà lãnh đạo khối đã đưa ra nhiều ý tưởng cùng bài học kinh nghiệm nhằm thúc đẩy hơn nữa sự gắn kết cộng đồng, cùng định hình một “tầm vóc mới” cho ASEAN trong bối cảnh thế giới bước sâu vào cách mạng công nghệp lần thứ 4.</p>
+
+                                                <p>Thành công của WEF ASEAN 2018 còn được ghi nhận bởi tính phổ cập của sự kiện này trên mang xã hội – một biểu tượng của xã hội số hiện đại. 60 phiên thảo luận thu hút hơn 90.000 người theo dõi trực tiếp, 7 triệu người theo dõi qua mạng xã hội (facebook và twitter), 13.000 đánh giá bình luận.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-4.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-4.png" alt="" class="cwi-img">
+                                        <img src="images/quote-4.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>Chịu áp lực không nhỏ từ biến động kinh tế toàn cầu và xu thế dịch chuyển dòng vốn, Việt Nam vẫn tiếp tục đạt được những thành tựu ấn tượng về tăng trưởng kinh tế khi kết thúc năm 2018 ở mức 7% - mức tăng trưởng cao nhất trong 10 năm qua. Con số này thậm chí vượt qua Trung Quốc, và cao hơn nhiều so với các nước trong khu vực ASEAN.</p>
+
+                                                <p>Đóng góp vào thành công này không thể không kể tới nỗ lực của Chính phủ trong kiểm soát lạm phát (dưới 4%), gánh nặng nợ công giảm, thị trường tài chính ổn định, bội chi ngân sách dưới ngưỡng mục tiêu, đầu tư toàn xã hội chuyển dịch tích cực, trong khi giải ngân FDI đạt kỷ lục. Quy mô nền kinh tế năm 2018 tăng mạnh, ước đạt trên 5,5 triệu tỷ đồng (khoảng 240,5 tỷ USD), gấp trên 1,3 lần năm 2015. GDP bình quân đầu người ước đạt 2.540 USD, tăng 440 USD so với năm 2015.</p>
+
+                                                <p>Sự tăng trưởng ổn định của kinh tế Việt Nam cũng nhận được đánh giá cao từ các tổ chức quốc tế. Theo báo cáo của Viện Toàn cầu McKinsey (MGI) công bố ngày 12/9 tại Diễn đàn Kinh tế Thế giới (WEF), Việt Nam nằm trong 18 nền kinh tế được đánh giá là "đạt hiệu quả vượt trội hơn" trong vòng 50 năm qua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-5.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-5.png" alt="" class="cwi-img">
+                                        <img src="images/quote-5.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>Tháng 8/2018, Vingroup lần đầu tiên công bố chiến lược đầu tư trọng điểm trong 10 năm, nhằm biến công ty vốn thành công nhờ bất động sản trở thành tập đoàn đẳng cấp quốc tế về công nghệ - công nghiệp - dịch vụ. Kể từ đây, Vingroup liên tục trở thành tâm điểm báo chí trong và ngoài nước nhờ những màn ra mắt hoành tráng, những tham vọng khiến thế giới cũng phải ngạc nhiên, bên cạnh dấu ấn Việt Nam đậm nét trong từng sản phẩm.</p>
+
+                                                <p>2 tháng sau, công ty con của Vingroup là VinFast gây tiếng vang lớn khi là nhà phát triển ô tô đầu tiên của Việt Nam tham dự Paris Motor Show. Tháng 11, công ty này ra mắt 3 mẫu ô tô, 1 mẫu xe máy trong một buổi lễ kéo dài 2 ngày ở Hà Nội. Đến tháng 12, công ty con VinSmart trình làng 4 mẫu điện thoại di động VSmart, chỉ sau 6 tháng khởi công nhà máy.</p>
+
+                                                <p>Bên cạnh dấu ấn kinh doanh, Vingroup còn ghi điểm khi là doanh nghiệp đầu tiên chia sẻ gánh nặng phí bản quyền truyền hình để cùng VTV đưa World Cup về Việt Nam vào tháng 6/2018 với số tiền tài trợ 5 triệu USD và không nhận bất cứ quyền lợi tài trợ nào từ đó.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-6.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-6.png" alt="" class="cwi-img">
+                                        <img src="images/quote-6.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>Tháng 1/2015, sự kiện “con ruồi trong chai Dr Thanh” xảy ra, đẩy Tân Hiệp Phát từ vị thế ông lớn nước giải khát Việt Nam xuống vũng lầy scandal đúng thời điểm người tiêu dùng đang nhạy cảm về vấn đề chất lượng thực phẩm. Chỉ sau 1 đêm, toàn bộ sản phẩm của hãng trên kệ của nhiều siêu thị bị thay thế bằng thương hiệu đối thủ, cùng với đó là thiệt hại khó đo đếm về tên tuổi và tài chính.</p>
+
+                                                <p>Vượt qua khó khăn bằng sự im lặng lạ lùng, Tân Hiệp Phát đưa nhà máy NumberOne Hà Nam vào hoạt động, vực dậy mảng bán hàng, chạm doanh thu 7.000 tỷ đồng năm 2017. Năm 2018, công ty này trở lại top 5 thương hiệu đồ uống mạnh nhất Việt Nam, vươn tới doanh thu 1 tỷ USD, đồng thời đặt kế hoạch Mỹ tiến năm 2023 và 3 tỷ USD doanh thu năm 2030.</p>
+
+                                                <p>Trong cuốn sách mang tên “Competing With Giants” do Trần Uyên Phương – con gái nhà sáng lập Trần Quí Thanh – là đồng tác giả, phát hành bởi ForbesBooks, câu chuyện THP từ chối lời đề nghị mua lại trị giá 2,5 tỷ USD của Coca-Cola vào năm 2012 lần đầu được tiết lộ. Cuốn sách kể về cách thức tồn tại và thành công của một công ty gia đình giữa áp lực thâu tóm của các ông lớn đa quốc gia sau đó đã trở thành tác phẩm duy nhất của người Việt lọt top 5 đề cử giải sách hay 2018 do American Book Fest tổ chức.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-7.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-7.png" alt="" class="cwi-img">
+                                        <img src="images/quote-7.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>Diễn ra muộn và bớt ồn ào hơn nhiều so với 2 phiên bản tiền nhiệm, lễ ra mắt Bphone 3 được xem là phần trình diễn khiêm tốn nhưng chứa đựng nhiều bất ngờ nhất đến từ BKAV, tương ứng với nhận xét được CEO Nguyễn Tử Quảng nói: “Chất thật!”. Chiếc điện thoại có thiết kế tràn đáy lạ mắt, cùng hai cạnh bên rất mỏng, được xem là phiên bản “dày trán, mỏng cằm” chưa từng xuất hiện trên thị trường.</p>
+
+                                                <p>Theo BKAV, hãng đã phải nỗ lực lớn trong việc nghiên cứu thiết kế cơ khí, điện tử và ăng-ten để có được cạnh đáy mỏng như vậy. Sản phẩm được cập nhật trào lưu màn hình tỷ lệ 18:9 trên kích thước 6 inch với bề ngang gọn, tổng thể vuông vức khác biệt so với đa số đối thủ trên thị trường.</p>
+
+                                                <p>Ngoài nỗ lực phần cứng, nhà sản xuất cũng loại bỏ hoàn toàn các phím điều hướng quen thuộc của Android (back, home và đa nhiệm) thay bằng các điều khiển cử chỉ. Bên cạnh đó, với ưu thế là công ty chuyên về an ninh mạng, BKAV mang tới ứng dụng chặn triệt để tin nhắn rác, diệt virus và chống trộm. Thậm chí, các thao tác định vị điện thoại, ra lệnh cho camera, khóa máy có thể được thực hiện từ xa nếu chiếc Bphone 3 chẳng may thất lạc, bị đưa về chế độ cài đặt gốc.</p>
+
+                                                <p>Sau 3 tháng ra mắt, Bphone 3 đã bán được hơn 10.000 máy, vượt con số bán cả năm của Bphone 2 trước đó.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-8.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-8.png" alt="" class="cwi-img">
+                                        <img src="images/quote-8.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>Nằm trong quần thể vườn Thiên Thai, thuộc khu du lịch Bà Nà Hills (Đà Nẵng), vừa được khánh thành vào tháng 6/2018, cầu Vàng được thiết kế nằm trên độ cao 1.400m so với mực nước biển, dài 150m, gồm 8 nhịp,  rộng 12,8m, được sơn vàng, mô tả hình ảnh dải lụa mềm mại, đối lập với trụ cầu được thiết kế hình hai bàn tay khổng lồ phủ rêu phong, tựa như của những vị thần vươn ra từ núi đá.</p>
+
+                                                <p>Công trình do Công ty Kiến trúc cảnh quan TA thực hiện trong vòng gần 1 năm, được cho là một phần thuộc dự án trị giá 2 tỷ USD nhằm tạo nên sức hút mới cho du lịch địa phương. Chỉ trong vòng 9 tháng, tổng lượt khách du lịch đến thành phố ước đạt 6,5 triệu lượt, tăng 27,7% so với cùng kỳ 2017, trong số đó, gần một nửa du khách tìm đến Đà Nẵng bởi sức hút của cây cầu nổi tiếng này.</p>
+
+                                                <p>Với tầm nhìn tuyệt đẹp xen giữa biển mây và núi non, cầu Vàng lọt vào mắt xanh của nhiều trang kiến trúc và du lịch nổi tiếng như BBC, AFP, Reuters, CNN, Archdaily, Guardian... Là cây cầu hiếm hoi trên thế giới không bắc qua một dòng sông hay vịnh biển nào, cầu Vàng được tạp chí Times xếp hạng đầu tiên trong top 100 điểm đến đẹp nhất thế giới năm 2018 nhờ thiết kế phá vỡ giới hạn, dẫn đầu các xu thế trong ngành và đem lại trải nghiệm phi thường cho người xem.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-9.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-9.png" alt="" class="cwi-img">
+                                        <img src="images/quote-9.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>Cuộc điện thoại bất ngờ của ông Phạm Nhật Vượng cho Chủ tịch Coteccons Nguyễn Bá Dương vào năm 2014 trong những ngày sát hạn chót nhận thầu đã trở thành kết nối đầy cảm xúc của những con người muốn tạo nên điều kỳ diệu cho ngành xây dựng Việt Nam. Vượt qua Lotte và SsangYong (Hàn Quốc), Coteccons trở thành tổng thầu của tòa nhà cao nhất Việt Nam với giá trị gói thầu khoảng 6.000 tỷ đồng, và là công ty Việt Nam làm tổng thầu một siêu dự án tầm cỡ thế giới.</p>
+
+                                                <p>Sau 19 tháng xây dựng, Landmark 81 đã khai trương vào ngày 26/7/2018, vượt qua những giới hạn chủ quan về kinh nghiệm, lẫn khách quan là thời tiết, và lập nên kỷ lục Việt Nam về tốc độ xây dựng. Công trình với 81 tầng, cao 461,3m, trở thành tòa nhà cao nhất Việt Nam và nằm trong top 8 công trình chọc trời thế giới.</p>
+
+                                                <p>Lấy cảm hứng từ bó tre truyền thống của Việt Nam với những đỉnh nhấp nhô được tạo hình cao vút, Landmark 81 vươn lên bầu trời xanh thể hiện sức mạnh đoàn kết, lòng tự tôn dân tộc và sức mạnh kinh tế, chính trị trong thời đại hội nhập. Tòa nhà cao nhất Việt Nam cũng mang trong mình loạt điểm nhấn như sân băng trong nhà lớn nhất, đài quan sát cao nhất Việt Nam…</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swim-item swiper-slide">
+                                    <div class="swimi-left">
+                                        <img src="images/front-10.png" alt="">
+
+                                        <img src="images/logo-white.png" alt="" class="swimil-logo">
+                                    </div>
+
+                                    <div class="swimi-right">
+                                        <img src="images/subtitle-10.png" alt="" class="cwi-img">
+                                        <img src="images/quote-10.png" alt="" class="cwi-img">
+
+                                        <div class="swimir-content">
+                                            <div class="swimirc-main">
+                                                <p>10 năm chờ đợi, vượt qua 91 đối thủ, Viettel đã chính thức khai trương mạng di động quốc tế thứ 10 tại Myanmar, lấy tên là Mytel, vào tháng 6/2018. Đây không chỉ là dự án được chuẩn bị dài hơi nhất của Tập đoàn Công nghiệp - Viễn thông Quân đội (Viettel), mà còn là dấu mốc kỷ lục đối với Viettel trong chặng đường 12 năm đầu tư nước ngoài: dự án có tổng vốn đầu tư lớn nhất (1,5 tỷ USD), công nghệ khai trương tốt nhất (mạng 4G trên toàn quốc), tạo nên mạng lưới cáp quang dài nhất (30.000km), tiếp cận thị trường quốc tế có quy mô dân số lớn nhất (53 triệu người).</p>
+
+                                                <p>Không phụ kỳ vọng, dự án này đã sớm gặt hái được những thành công lớn trong thời gian rất ngắn. Chỉ sau 1 tháng, Mytel đạt mục tiêu đặt ra cả năm trước ngày khai trương, là có được 2 triệu thuê bao, trong đó tỷ lệ thuê bao 4G chiếm tới 70%. Đầu tháng 12, sau 6 tháng khai trương, nhà mạng này vượt mốc 4 triệu thuê bao, chiếm hơn 10% thị phần di động tại Myanmar.</p>
+
+                                                <p>Với tốc độ phát triển này, Mytel là mạng di động tăng trưởng nhanh nhất trong lịch sử của Viettel và là hiện tượng của ngành di động thế giới. Trước đây, tại Việt Nam, Viettel mất 18 tháng để có 3 triệu thuê bao mà đã trở thành một hiện tượng của ngành viễn thông toàn cầu.</p>
+
+                                                <p>Theo dự kiến, Viettel Myanmar sẽ có lãi trong năm 2019.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <img src="images/close.png" alt="" class="cwi-close">
+                        </div>
+
+                        <div class="cwim-next swiper-button-next"></div>
+                        <div class="cwim-prev swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
